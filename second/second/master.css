@@ -1,0 +1,84 @@
+.parent .child .title{
+    color: red;
+}
+.parent .title{
+    color: blue;
+}
+.parent p,.title{
+    color: green;
+}
+.a,.b,.c{
+    color: white;
+    padding: 10px;
+    background-color: rgb(151, 22, 22);
+    margin: 10px 0;
+
+}
+.a,.b{
+    width: fit-content;
+}
+.c{
+    width: 200px;
+    max-height: 100px;
+    overflow: auto;
+}
+/* .k1{
+
+    text-transform: capitalize;
+    text-shadow: 2px 2px red;
+    color: black;
+
+} */
+.k1{
+
+    text-transform: capitalize;
+    text-shadow: 1px 1px 5px rgb(15, 14, 15),1.5px 1.2px 5px rgb(218, 24, 24),2px 1.4px 5px rgb(25, 119, 226),2.5px 1.6px 5px rgb(151, 12, 194);
+    color: black;
+
+}
+.one{
+    text-transform: uppercase;
+}
+.two{
+    text-transform: capitalize;
+}
+.three{
+    text-transform: lowercase;
+}
+#one{
+    background-color: rgba(211, 198, 198, 0.933);
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    
+}
+#two{
+    background-color:rgba(211, 198, 198, 0.933);
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+}
+#three{
+    background-color:rgba(211, 198, 198, 0.933);
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+a{
+    background-color: rgb(19, 139, 109);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    width: fit-content;
+    border-bottom: 3px solid rgb(6 99 54);
+    text-transform: capitalize;
+    background-position: right bottom;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+
+}

@@ -1,0 +1,76 @@
+.parent{
+    width: 500px;
+    background-color: #eee;
+    height: 100px;
+    transition: margin-top .5s;
+    margin-top: 20px;
+
+
+}
+.parent:hover{
+    margin-top: 0;
+
+}
+
+.parent:hover .down {
+    margin-top: 50px ;
+
+}
+
+.up{
+    margin-left: 10px;
+    transition: margin-left 1s .5s;
+}
+.down{
+    margin-left: 10px;  
+    background-color: #817d7d57;
+    transition: margin-top 1s .5s;
+}
+
+.parent:hover .up{
+    margin-left: 40px;
+}
+.non{
+    width: 200px;
+    background-color: #eee !important;
+    color: #eee !important; 
+    border-color:#eee !important ;
+    padding: 5px !important;
+    font-size: 20px !important;
+    position: relative;
+    left: 50%;
+    margin-top: 50px;
+
+
+
+}
+.non::before{
+    content: "ElZero";
+    color: black;
+    text-align: center;
+    font-weight: bold ;
+
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+    left: 90px;
+
+}
+
+:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+  }
+   
+  #asd {
+    padding: var(--mainPadding, 10px);
+    width: 200px;
+    color: var(--mainColor,red );
+    border-color: var(--mainColor,black);
+    border-style: solid;
+    border-width: 2px;
+    position: relative;
+    margin-top: 5px;
+    background-color: white;
+    left: 50%;
+  }

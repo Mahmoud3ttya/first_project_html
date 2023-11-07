@@ -1,0 +1,44 @@
+.parent{
+    width: 800px;
+    background-color: #eee;
+
+}
+p{
+    text-align: center;
+    background-color: #797575;
+    margin-left: 15px;
+    float: left;
+}
+.one p{
+    text-transform: capitalize;
+    width: calc(100% - 30px);
+}
+.two p{
+     width: calc((100% - 60px)/3);
+}
+.three p{
+    width: calc((100% - 45px)/2);
+}
+.four p{
+    width: calc((100% - 75px)/4);
+}
+.cleer{
+    clear: both;
+}
+.asd div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #797575; 
+    color: black;
+  }
+  .asd .one{
+    background-color:hsl(0, 2%, 47%,.1) ; 
+  }
+  .asd .two{
+
+    background-color:#797575 ; 
+    opacity: .1;
+  }
