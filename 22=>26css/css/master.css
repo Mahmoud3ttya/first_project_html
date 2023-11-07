@@ -1,0 +1,25 @@
+
+.open{
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+.cairo{
+    /* font-family: 'Cairo', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.Jomhuria{
+    /* font-family: 'Jomhuria', serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+p{
+    text-transform: capitalize;
+}
+html{
+    font-size: 20px;
+}
